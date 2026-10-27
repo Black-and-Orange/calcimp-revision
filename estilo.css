@@ -1,0 +1,23 @@
+
+*{box-sizing:border-box}body{margin:0;font-family:"Open Sans",Arial,sans-serif;color:#000;background:#fff;line-height:1.5}
+h1,h2,h3{font-family:Montserrat,Arial,sans-serif;line-height:1.2}a{color:#000}
+header.top{background:#000;color:#fff;padding:20px 24px}header.top a{color:#fff}header.top b{color:#E7A745}
+nav.tabs{display:flex;gap:8px;flex-wrap:wrap;padding:12px 24px;border-bottom:1px solid #ddd;position:sticky;top:0;background:#fff;z-index:5}
+nav.tabs a{padding:6px 12px;border:1px solid #737373;border-radius:999px;text-decoration:none;font-size:14px}
+nav.tabs a.on{background:#000;color:#fff;border-color:#000}
+main{max-width:1180px;margin:0 auto;padding:24px}
+.aviso{background:#f6f6f6;border-left:6px solid #E7A745;padding:12px 16px;margin:16px 0}
+.card{border:1px solid #ddd;border-radius:12px;padding:20px;margin:24px 0;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px}
+@media(max-width:820px){.card{grid-template-columns:1fr}}
+.imgs{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;align-items:flex-start}
+.imgs img{max-height:520px;width:auto;max-width:100%;border:1px solid #eee;border-radius:6px;flex:0 0 auto}
+.imgs.car img{max-height:340px}
+.id{font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:22px}
+.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;background:#000;color:#fff;margin:0 6px 6px 0}
+.tag.g{background:#E7A745;color:#000}
+dl{margin:0}dt{font-weight:600;font-size:13px;color:#555;margin-top:12px;text-transform:none}dd{margin:2px 0 0}
+.fb{margin-top:16px;padding:10px 12px;background:#fafafa;border:1px dashed #737373;border-radius:8px;font-size:14px}
+.rsa{border:1px solid #ddd;border-radius:12px;padding:20px;margin:24px 0}.rsa li{margin:2px 0}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.box{border:1px solid #ddd;border-radius:12px;padding:16px}.box h3{margin-top:0}
+footer{color:#737373;font-size:13px;padding:24px;text-align:center}

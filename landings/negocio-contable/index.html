@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software contable por contribuyente | CalcImp</title>
+<meta name="description" content="Lleva más contribuyentes con el mismo equipo. Un precio por contribuyente con todo adentro: usuarios, funciones y actualizaciones. Prueba 30 días sin tarjeta.">
+<!-- BORRADOR: noindex hasta la publicación aprobada (board + cliente). Quitar al publicar. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://www.calcimp.com/negocio-contable/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="CalcImp">
+<meta property="og:title" content="Lleva de 15 a 30 contribuyentes sin contratar a nadie más | CalcImp">
+<meta property="og:description" content="Un precio por contribuyente con todo adentro: usuarios, funciones y actualizaciones. Prueba 30 días sin tarjeta.">
+<meta property="og:url" content="https://www.calcimp.com/negocio-contable/">
+<!-- og:image PENDIENTE: pieza en marca del design-director (sin mockups ni UI inventada). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap">
+</head>
+<body><div style="position:sticky;top:0;z-index:9999;background:#000;color:#fff;font:600 14px/1.4 Montserrat,Arial,sans-serif;padding:10px 16px;text-align:center">Vista previa para aprobación de CalcImp · no publicada · <a href="../../index.html" style="color:#E7A745">volver al índice</a> · Los textos entre corchetes [ ] son datos que necesitamos que ustedes confirmen.</div>
+<!-- ===== INICIO DEL BLOQUE PARA GHL / WORDPRESS (pegar desde aquí en el elemento de código; el <head> no se pega) · v3 con capturas reales, CAL-60 ===== -->
+<style>
+.cal-lp{--dorado:#E7A745;--gris:#737373;--gris-osc:#959595;--negro:#000;--blanco:#fff;--fondo:#F5F5F5;--linea:#D4D4D4;--cal-ease:cubic-bezier(.22,1,.36,1);
+  font-family:"Open Sans",Arial,sans-serif;font-weight:400;color:var(--negro);background:var(--blanco);line-height:1.6;font-size:1.0625rem;-webkit-text-size-adjust:100%;
+  interpolate-size:allow-keywords;timeline-scope:--cal-hero}
+.cal-lp *,.cal-lp *::before,.cal-lp *::after{box-sizing:border-box}
+.cal-lp h1,.cal-lp h2,.cal-lp h3{font-family:Montserrat,Arial,sans-serif;font-weight:700;line-height:1.2;margin:0 0 .6em;overflow-wrap:break-word}
+.cal-lp h1{font-size:clamp(1.85rem,6vw,3.25rem)}
+.cal-lp h2{font-size:clamp(1.5rem,4.5vw,2.25rem)}
+.cal-lp h3{font-size:1.125rem;font-weight:600}
+.cal-lp p,.cal-lp ul,.cal-lp ol{margin:0 0 1em}
+.cal-lp ul,.cal-lp ol{padding-left:1.25em}
+.cal-lp li{margin-bottom:.5em}
+.cal-lp strong{font-weight:600}
+.cal-lp a{color:var(--negro);text-decoration:underline;text-underline-offset:3px}
+.cal-lp a:focus-visible,.cal-lp summary:focus-visible{outline:3px solid var(--negro);outline-offset:3px}
+.cal-lp .cal-sec{padding:56px 20px}
+.cal-lp .cal-in{max-width:1040px;margin:0 auto}
+.cal-lp .cal-alt{background:var(--fondo)}
+.cal-lp .cal-dark{background:var(--negro);color:var(--blanco)}
+.cal-lp .cal-dark a{color:var(--blanco)}
+.cal-lp .cal-dark a:focus-visible,.cal-lp .cal-dark .cal-btn:focus-visible{outline-color:var(--blanco)}
+.cal-lp .cal-lead{font-size:1.1875rem;max-width:38em}
+.cal-lp .cal-txt{max-width:40em}
+.cal-lp .cal-acento{display:block;width:56px;height:4px;background:var(--dorado);margin:0 0 20px;border:0}
+.cal-lp .cal-btn{display:inline-block;background:var(--dorado);color:var(--negro);font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:1.0625rem;
+  text-decoration:none;padding:16px 28px;min-height:48px;border-radius:6px;line-height:1.3;max-width:100%;text-align:center}
+.cal-lp .cal-btn:active{transform:translateY(1px)}
+.cal-lp .cal-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cal-lp .cal-nota{color:var(--gris);font-size:.9375rem;margin-top:10px}
+.cal-lp .cal-dark .cal-nota{color:var(--gris-osc)}
+.cal-lp .cal-alt .cal-nota{color:var(--negro)}
+.cal-lp .cal-nota a,.cal-lp details a{display:inline-block;padding-block:10px}
+.cal-lp .cal-mark{display:inline-block;background:var(--dorado);border:1px dashed var(--negro);color:var(--negro);font-size:.8125rem;font-weight:600;padding:1px 6px;border-radius:4px;font-family:"Open Sans",Arial,sans-serif;line-height:1.5}
+.cal-lp .cal-ico{width:32px;height:32px;flex:none;display:block}
+.cal-lp .cal-ico-24{width:24px;height:24px}
+.cal-lp .cal-ilus svg{display:block;width:100%;height:auto;margin:0 auto}
+/* Hero */
+.cal-lp .cal-hero-sec{padding-top:32px;view-timeline:--cal-hero block}
+.cal-lp .cal-hero{display:grid;gap:32px;align-items:center}
+.cal-lp .cal-hero h1{max-width:13em;text-wrap:balance}
+.cal-lp .cal-hero .cal-lead{font-size:1.0625rem}
+.cal-lp .cal-hero .cal-ilus{max-width:360px;width:100%;margin:0 auto}
+/* Franja de datos */
+.cal-lp .cal-datos{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:32px 16px}
+.cal-lp .cal-datos li{margin:0}
+.cal-lp .cal-datos li::before{content:"";display:block;width:32px;height:3px;background:var(--dorado);margin-bottom:12px}
+.cal-lp .cal-dato{display:block;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:clamp(1.5rem,5vw,2.5rem);line-height:1.15;color:var(--blanco)}
+.cal-lp .cal-dato-rot{display:block;font-family:"Open Sans",Arial,sans-serif;font-weight:600;font-size:.9375rem;color:var(--gris-osc);margin-top:6px;line-height:1.4}
+/* Tarjetas */
+.cal-lp .cal-grid{list-style:none;padding:0;margin:0 0 16px;display:grid;gap:16px}
+.cal-lp .cal-grid>li{margin:0}
+.cal-lp .cal-tarjeta{background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:24px}
+.cal-lp .cal-sec:not(.cal-alt):not(.cal-dark) .cal-tarjeta{background:var(--fondo)}
+.cal-lp .cal-tarjeta .cal-ico{margin-bottom:16px}
+.cal-lp .cal-tarjeta h3{margin-bottom:.4em}
+.cal-lp .cal-tarjeta p{margin:0}
+.cal-lp .cal-tarjeta.cal-aparte,.cal-lp .cal-ad-cal.cal-aparte{border:1px dashed var(--gris)}
+.cal-lp .cal-dark .cal-tarjeta{background:transparent;border-color:var(--gris)}
+/* Pasos */
+.cal-lp .cal-pasos{list-style:none;padding:0;margin:0 0 32px;display:grid;gap:32px}
+.cal-lp .cal-pasos>li{margin:0}
+.cal-lp .cal-pasos svg{display:block;width:160px;height:auto;margin-bottom:16px}
+.cal-lp .cal-pasos p{margin:0}
+.cal-lp .cal-intermedio{margin-top:8px}
+.cal-lp .cal-paralelo{display:flex;gap:16px;align-items:flex-start}
+/* Hoy vs con CalcImp */
+.cal-lp .cal-ad{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:24px}
+.cal-lp .cal-antes-despues{margin:0;display:grid;gap:8px;align-items:stretch}
+.cal-lp .cal-ad-hoy,.cal-lp .cal-ad-cal{border-radius:12px;padding:20px 24px}
+.cal-lp .cal-ad-hoy{background:#EBEBEB}
+.cal-lp .cal-ad-cal{background:var(--blanco);border-left:4px solid var(--dorado)}
+.cal-lp .cal-ad-hoy p,.cal-lp .cal-ad-cal p{margin:0}
+.cal-lp .cal-rot{font-family:Montserrat,Arial,sans-serif;font-weight:600;font-size:.8125rem;margin:0 0 4px!important}
+.cal-lp .cal-ad-mid{display:flex;align-items:center;justify-content:center;gap:8px}
+.cal-lp .cal-ad-mid .cal-flecha{width:20px;height:20px;transform:rotate(90deg)}
+.cal-lp .cal-formula{background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:24px;margin:0 0 16px}
+.cal-lp .cal-formula span{display:block}
+/* Comparativa */
+.cal-lp .cal-tabla-wrap{margin:8px 0 16px}
+.cal-lp table{width:100%;border-collapse:collapse;background:var(--blanco);font-size:1rem}
+.cal-lp caption{text-align:left;font-weight:600;padding-bottom:8px}
+.cal-lp th,.cal-lp td{border:1px solid var(--linea);padding:12px 14px;text-align:left;vertical-align:top}
+.cal-lp thead th{background:var(--negro);color:var(--blanco);font-family:Montserrat,Arial,sans-serif;font-weight:600}
+.cal-lp thead th.cal-col-cal{border-bottom:4px solid var(--dorado)}
+.cal-lp td.cal-col-cal{border-left:4px solid var(--dorado);border-right:4px solid var(--dorado)}
+.cal-lp tbody th{font-weight:600;background:var(--fondo)}
+/* Capacitación y RFC */
+.cal-lp .cal-lado{display:grid;gap:32px;align-items:center}
+.cal-lp .cal-lado .cal-ilus{max-width:200px;width:100%;margin:0 auto}
+.cal-lp .cal-escudo{max-width:120px;width:100%;margin:0 auto;color:var(--blanco)}
+.cal-lp #cal-rfc{scroll-margin-top:16px}
+/* Calendario */
+.cal-lp .cal-cal{max-width:640px;margin:32px auto}
+.cal-lp .cal-cal-h{display:none}
+.cal-lp .cal-cal-v{max-width:300px;margin:0 auto}
+/* Qué tiene y qué no · Cómo cargar */
+.cal-lp .cal-sino,.cal-lp .cal-carga{list-style:none;padding:0;margin:0 0 16px;display:grid;gap:16px}
+.cal-lp .cal-sino li,.cal-lp .cal-carga li{display:flex;gap:16px;align-items:flex-start;margin:0}
+.cal-lp .cal-sino li p,.cal-lp .cal-carga li p{margin:0}
+.cal-lp .cal-sino .cal-ico{width:28px;height:28px}
+.cal-lp .cal-carga .cal-icos{display:flex;gap:4px;flex:none}
+/* FAQ */
+.cal-lp .cal-faq{max-width:760px;margin:0 auto}
+.cal-lp details{border-bottom:1px solid var(--linea);padding:4px 0}
+.cal-lp summary{cursor:pointer;font-family:Montserrat,Arial,sans-serif;font-weight:600;font-size:1.0625rem;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:48px;padding:12px 0}
+.cal-lp summary::-webkit-details-marker{display:none}
+.cal-lp summary .cal-ico{width:20px;height:20px}
+.cal-lp details .cal-i-menos,.cal-lp details[open] .cal-i-mas{display:none}
+.cal-lp details[open] .cal-i-menos{display:block}
+.cal-lp details p{margin:0 0 16px}
+.cal-lp details::details-content{block-size:0;overflow:clip;transition:block-size 300ms var(--cal-ease),content-visibility 300ms allow-discrete}
+.cal-lp details[open]::details-content{block-size:auto}
+/* Cierre */
+.cal-lp .cal-cierre{text-align:center}
+.cal-lp .cal-cierre .cal-acento{margin:0 auto 20px}
+.cal-lp .cal-cierre .cal-lead{margin-left:auto;margin-right:auto}
+.cal-lp .cal-cierre .cal-ilus{max-width:300px;margin:0 auto 32px}
+/* CTA fijo (E2, variante CSS) */
+.cal-lp .cal-btn.cal-fijo{display:none}
+@media (hover:hover){
+  .cal-lp .cal-btn:hover,.cal-lp summary:hover{text-decoration:underline;text-underline-offset:3px}
+  .cal-lp a:not(.cal-btn):hover{text-decoration-thickness:2px}
+}
+@media (min-width:640px){
+  .cal-lp .cal-cal-h{display:block}
+  .cal-lp .cal-cal-v{display:none}
+}
+@media (min-width:860px){
+  .cal-lp .cal-sec{padding:88px 32px}
+  .cal-lp .cal-hero-sec{padding-top:64px}
+  .cal-lp .cal-hero{grid-template-columns:1.15fr 1fr}
+  .cal-lp .cal-hero .cal-lead{font-size:1.1875rem}
+  .cal-lp .cal-hero .cal-ilus{max-width:440px}
+  .cal-lp .cal-datos{grid-template-columns:repeat(4,1fr);gap:24px}
+  .cal-lp .cal-grid.cal-2{grid-template-columns:1fr 1fr;gap:24px}
+  .cal-lp .cal-grid .cal-ancho{grid-column:1/-1}
+  .cal-lp .cal-pasos{grid-template-columns:repeat(3,1fr);gap:24px}
+  .cal-lp .cal-antes-despues{grid-template-columns:1fr 64px 1fr;gap:0}
+  .cal-lp .cal-ad-mid{flex-direction:column}
+  .cal-lp .cal-ad-mid .cal-flecha{transform:none}
+  .cal-lp .cal-lado{grid-template-columns:1fr 1.6fr;gap:56px}
+  .cal-lp .cal-lado .cal-ilus{max-width:240px}
+  .cal-lp .cal-lado .cal-escudo{max-width:160px}
+  .cal-lp .cal-sino.cal-2{grid-template-columns:1fr 1fr;gap:24px}
+  .cal-lp .cal-formula span{display:inline}
+}
+@media (max-width:640px){.cal-lp .cal-nota .cal-sep{display:none}.cal-lp .cal-nota a{display:block;width:fit-content}
+  .cal-lp .cal-btn{display:block;width:100%}
+  .cal-lp table.cal-apila thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .cal-lp table.cal-apila,.cal-lp table.cal-apila tbody,.cal-lp table.cal-apila tr,.cal-lp table.cal-apila th,.cal-lp table.cal-apila td{display:block;width:100%}
+  .cal-lp table.cal-apila tr{margin-bottom:16px;border:1px solid var(--linea);border-radius:6px;overflow:hidden}
+  .cal-lp table.cal-apila th,.cal-lp table.cal-apila td{border:0;border-bottom:1px solid #EBEBEB}
+  .cal-lp table.cal-apila td.cal-col-cal{border-left:4px solid var(--dorado)}
+  .cal-lp table.cal-apila tbody th{background:var(--negro);color:var(--blanco)}
+  .cal-lp table.cal-apila td::before{content:attr(data-label);display:block;font-family:Montserrat,Arial,sans-serif;font-weight:600;font-size:.8125rem;color:var(--gris);margin-bottom:2px}
+}
+@supports (animation-timeline: view()){
+  @media (max-width:767px){
+    .cal-lp{padding-bottom:88px}
+    .cal-lp .cal-btn.cal-fijo{display:grid;place-items:center;position:fixed;z-index:50;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));
+      width:auto;min-height:52px;padding:12px 20px;font-size:1rem;border-radius:999px;box-shadow:0 0 0 2px #000;
+      animation:cal-fijo-in linear both;animation-timeline:--cal-hero;animation-range:exit 70% exit 100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .cal-lp .cal-reveal{animation:cal-reveal linear both;animation-timeline:view();animation-range:entry 0% entry 35%}
+    .cal-lp .cal-reveal:nth-child(2){animation-range:entry 5% entry 40%}
+    .cal-lp .cal-reveal:nth-child(3){animation-range:entry 10% entry 45%}
+    .cal-lp .cal-reveal:nth-child(4){animation-range:entry 15% entry 50%}
+  }
+}
+@keyframes cal-reveal{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes cal-fijo-in{from{opacity:0;transform:translateY(120%);visibility:hidden}to{opacity:1;transform:none;visibility:visible}}
+@media (prefers-reduced-motion:reduce){
+  @keyframes cal-fijo-in{from{opacity:0;visibility:hidden}to{opacity:1;visibility:visible}}
+  .cal-lp *,.cal-lp *::before,.cal-lp *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
+/* Capturas reales de la plataforma (v3, CAL-60): marco de navegador, sin UI inventada */
+.cal-lp .cal-capturas{margin-top:48px}
+.cal-lp .cal-capturas>h3{font-size:1.375rem;margin-bottom:24px}
+.cal-lp .cal-cap{margin:0 0 40px;max-width:100%}
+.cal-lp .cal-cap:last-child{margin-bottom:0}
+.cal-lp .cal-cap-marco{border:1px solid var(--linea);border-radius:10px;overflow:hidden;background:var(--blanco);box-shadow:0 10px 28px rgba(0,0,0,.10)}
+.cal-lp .cal-nav{display:flex;gap:6px;align-items:center;height:26px;padding:0 12px;background:#E5E5E5;border-bottom:1px solid var(--linea)}
+.cal-lp .cal-nav span{width:10px;height:10px;border-radius:50%;background:var(--gris-osc)}
+.cal-lp .cal-nav span:first-child{background:var(--dorado)}
+.cal-lp .cal-cap-marco a{display:block}
+.cal-lp .cal-cap img{display:block;width:100%;height:auto}
+.cal-lp .cal-cap figcaption{margin-top:12px;font-size:.9375rem;max-width:46em}
+.cal-lp .cal-pie{display:block;color:var(--gris);font-size:.8125rem;margin-top:4px}
+.cal-lp .cal-alt .cal-pie{color:var(--negro)}
+.cal-lp .cal-zoom{display:none}
+@media (max-width:640px){.cal-lp .cal-zoom{display:inline}.cal-lp .cal-nav{height:20px}.cal-lp .cal-nav span{width:8px;height:8px}}
+</style>
+
+<main class="cal-lp" id="cal-negocio-contable">
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><symbol id="cal-i-equipo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="9" cy="8" r="3.25"/><path d="M3 19.5c0-3.4 2.7-5.75 6-5.75s6 2.35 6 5.75"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 13.75c2.6.2 4.5 2.1 4.5 4.75"/></g></symbol><symbol id="cal-i-funciones" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><rect width="7" height="7" x="3.5" y="3.5" rx="1.5"/><rect width="7" height="7" x="13.5" y="3.5" rx="1.5"/><rect width="7" height="7" x="3.5" y="13.5" rx="1.5"/><rect width="7" height="7" x="13.5" y="13.5" rx="1.5"/></g></symbol><symbol id="cal-i-actualizaciones" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><path d="M20 12a8 8 0 0 1-14.2 5M4 12a8 8 0 0 1 14.2-5"/><path d="M18.5 3v4.25h-4.25M5.5 21v-4.25h4.25"/></g></symbol><symbol id="cal-i-factura" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M6 3h12v18l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5zM9 8h6M9 12h6M9 16h3"/></symbol><symbol id="cal-i-timbre" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="12" cy="6" r="3"/><path d="M10.5 9v3.5M13.5 9v3.5"/><rect width="16" height="4" x="4" y="12.5" rx="1.25"/><path d="M5 20.5h14"/></g></symbol><symbol id="cal-i-registro" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="10" cy="8" r="3.5"/><path d="M3.5 20c0-3.6 2.9-6 6.5-6 1.1 0 2.1.2 3 .6M18 14v6M15 17h6"/></g></symbol><symbol id="cal-i-efirma" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="8" cy="15" r="4.25"/><path d="M11 12l9-9M16.5 6.5l2.25 2.25M14 9l2 2"/></g></symbol><symbol id="cal-i-polizas" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><rect width="16" height="18" x="4" y="3" rx="2"/><path d="M4 8.5h16M10 8.5V21M13 12.5h4M13 16.5h4"/></g></symbol><symbol id="cal-i-estados" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M4 20.5h16M4 3.5v17M8 17v-4M12 17V8M16 17v-6"/></symbol><symbol id="cal-i-sat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M3 9.5 12 4l9 5.5M4 10h16M6 10v7.5M10 10v7.5M14 10v7.5M18 10v7.5M3 20.5h18"/></symbol><symbol id="cal-i-banco" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><rect width="18" height="13" x="3" y="5.5" rx="2"/><path d="M3 10h18M7 14.5h4"/></g></symbol><symbol id="cal-i-cfdi" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 11v6M9.5 14.5 12 17l2.5-2.5"/></g></symbol><symbol id="cal-i-capacitacion" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c0 1.6 2.5 3 5.5 3s5.5-1.4 5.5-3V11M21.5 9v5"/></g></symbol><symbol id="cal-i-escudo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><rect width="6" height="5" x="9" y="11" rx="1"/><path d="M10.25 11V9.5a1.75 1.75 0 0 1 3.5 0V11"/></g></symbol><symbol id="cal-i-calendario" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><rect width="17" height="15.5" x="3.5" y="5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol><symbol id="cal-i-si" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.75 2.75L16 10"/></g></symbol><symbol id="cal-i-no" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></g></symbol><symbol id="cal-i-mas" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M12 5v14M5 12h14"/></symbol><symbol id="cal-i-menos" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M5 12h14"/></symbol><symbol id="cal-i-flecha" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M5 12h14M13 6l6 6-6 6"/></symbol></svg>
+  <!-- LOGO: CALCIMP.svg oficial (Drive 1pBjJyVkxmRIHptAfR-fY1_RwVf_v8TAd), pendiente CAL-52. Mientras no llegue, no se pinta la banda de encabezado (04-ux §2.1). No se redibuja el logo ni se escribe «CalcImp» con fuente. -->
+
+  <!-- 1 · Hero -->
+  <section class="cal-sec cal-hero-sec" aria-labelledby="cal-h1">
+    <div class="cal-in cal-hero">
+      <div>
+        <span class="cal-acento" aria-hidden="true"></span>
+        <h1 id="cal-h1">Lleva de 15 a 30 contribuyentes sin contratar a nadie más.</h1>
+        <p class="cal-lead">CalcImp hace por ti lo que hoy se te va en captura: trae los CFDI, arma las pólizas para que las revises y te deja los estados financieros listos. Tu equipo recupera horas y tú puedes tomar más clientes.</p>
+        <p><a class="cal-btn" href="https://www.calcimp.com/calc/registro">Prueba 30 días con un contribuyente real</a></p>
+        <p class="cal-nota">Todas las funciones. Sin tarjeta. <span class="cal-sep" aria-hidden="true">·</span> <a href="#cal-rfc">Qué hacemos con tu RFC</a></p>
+      </div>
+      <!-- Visual intercambiable (brief): si el board aprueba foto, entra en este contenedor. -->
+      <div class="cal-ilus"><svg xmlns="http://www.w3.org/2000/svg" width="400" height="330" aria-label="Del SAT a los estados financieros: CalcImp trae los CFDI del SAT, arma las pólizas para que las revises y deja los estados financieros listos" role="img" viewBox="0 0 400 330"><title>Del SAT a los estados financieros: CalcImp trae los CFDI del SAT, arma las pólizas para que las revises y deja los estados financieros listos</title><rect width="150" height="120" x="10" y="10" fill="none" stroke="currentColor" stroke-width="2.5" rx="14"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9.5 12 4l9 5.5M4 10h16M6 10v7.5M10 10v7.5M14 10v7.5M18 10v7.5M3 20.5h18" transform="translate(65 28)scale(1.67)"/><text x="85" y="106" fill="currentColor" font-family="Montserrat,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">SAT</text><rect width="150" height="120" x="240" y="10" fill="none" stroke="currentColor" stroke-width="2.5" rx="14"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" transform="translate(295 28)scale(1.67)"/><path d="M14 3v5h5M12 11v6M9.5 14.5 12 17l2.5-2.5" transform="translate(295 28)scale(1.67)"/></g><text x="315" y="106" fill="currentColor" font-family="Montserrat,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">CFDI</text><rect width="150" height="120" x="10" y="200" fill="none" stroke="currentColor" stroke-width="2.5" rx="14"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="translate(65 218)scale(1.67)"><rect width="16" height="18" x="4" y="3" rx="2"/><path d="M4 8.5h16M10 8.5V21M13 12.5h4M13 16.5h4"/></g><text x="85" y="296" fill="currentColor" font-family="Montserrat,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">Pólizas</text><rect width="150" height="120" x="240" y="200" fill="#e7a745" stroke="currentColor" stroke-width="2.5" rx="14"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 20.5h16M4 3.5v17M8 17v-4M12 17V8M16 17v-6" color="#000" transform="translate(295 212)scale(1.67)"/><text font-family="Montserrat,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle"><tspan x="315" y="286">Estados</tspan><tspan x="315" y="306">financieros</tspan></text><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M168 70 230 70M221.2 65.2 230 70 221.2 74.8M262 140 152 194M162 194.4 152 194 157.8 185.8M168 260 230 260M221.2 255.2 230 260 221.2 264.8"/><circle cx="199" cy="70" r="5" fill="#e7a745"/><circle cx="207" cy="167" r="5" fill="#e7a745"/><circle cx="199" cy="260" r="5" fill="#e7a745"/></svg></div>
+    </div>
+  </section>
+
+  <!-- 2 · Franja de datos (C1, C2) -->
+  <section class="cal-sec cal-dark" aria-label="La prueba en cuatro datos">
+    <div class="cal-in">
+      <ul class="cal-datos">
+        <li><span class="cal-dato">30 días</span><span class="cal-dato-rot">de prueba, sin tarjeta</span></li>
+        <li><span class="cal-dato">Todas las funciones</span><span class="cal-dato-rot">sin módulos que comprar después</span></li>
+        <li><span class="cal-dato">Sin costo por usuario</span><span class="cal-dato-rot">todo tu equipo, con permisos</span></li>
+        <li><span class="cal-dato">Timbres aparte</span><span class="cal-dato-rot">sueltos, desde uno</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3 · Todo adentro + lo que va aparte -->
+  <section class="cal-sec cal-alt" aria-labelledby="cal-precio">
+    <div class="cal-in">
+      <h2 id="cal-precio">Un precio por contribuyente. Todo adentro.</h2>
+      <p class="cal-lead">Pagas por cada contribuyente que llevas. Lo demás ya viene:</p>
+      <ul class="cal-grid cal-2">
+        <li class="cal-tarjeta cal-reveal"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-equipo"/></svg><h3>Todo tu equipo entra.</h3><p>Cada quien con sus permisos. No pagas licencia por usuario.</p></li>
+        <li class="cal-tarjeta cal-reveal"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-funciones"/></svg><h3>Todas las funciones.</h3><p>No hay módulos que comprar después.</p></li>
+        <li class="cal-tarjeta cal-reveal"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-actualizaciones"/></svg><h3>Las actualizaciones.</h3><p>No pagas la versión nueva.</p></li>
+        <li class="cal-tarjeta cal-reveal"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-factura"/></svg><h3>Tus clientes pagan su parte.</h3><p>Como el costo es por contribuyente, sabes cuánto le toca a cada cliente.</p></li>
+        <li class="cal-tarjeta cal-aparte cal-ancho cal-reveal"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-timbre"/></svg><h3>Lo que va aparte, dicho de frente: los timbres.</h3><p>Se compran sueltos, desde uno, o en paquete. Compras lo que consumes.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4 · Cómo funciona (nuevo; textos C5) -->
+  <section class="cal-sec" aria-labelledby="cal-como">
+    <div class="cal-in">
+      <h2 id="cal-como">Cómo funciona la prueba</h2>
+      <ol class="cal-pasos">
+        <li class="cal-reveal"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" aria-hidden="true" viewBox="0 0 160 120"><rect width="158" height="118" x="1" y="1" fill="#f5f5f5" rx="14"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" color="#000" transform="matrix(2 0 0 2 56 36)"><circle cx="10" cy="8" r="3.5"/><path d="M3.5 20c0-3.6 2.9-6 6.5-6 1.1 0 2.1.2 3 .6M18 14v6M15 17h6"/></g><circle cx="26" cy="26" r="16" fill="#e7a745"/><text x="26" y="32" font-family="Montserrat,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">1</text></svg><h3>Crea tu cuenta.</h3><p>Sin tarjeta.</p></li>
+        <li class="cal-reveal"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" aria-hidden="true" viewBox="0 0 160 120"><rect width="158" height="118" x="1" y="1" fill="#f5f5f5" rx="14"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" color="#000"><g stroke-width="1.4"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" transform="translate(44 38)scale(1.75)"/><path d="M14 3v5h5M12 11v6M9.5 14.5 12 17l2.5-2.5" transform="translate(44 38)scale(1.75)"/></g><g stroke-width="1.6" transform="matrix(1.4 0 0 1.4 92 50)"><circle cx="8" cy="15" r="4.25"/><path d="M11 12l9-9M16.5 6.5l2.25 2.25M14 9l2 2"/></g></g><circle cx="26" cy="26" r="16" fill="#e7a745"/><text x="26" y="32" font-family="Montserrat,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">2</text></svg><h3>Da de alta un contribuyente que conozcas bien.</h3><p>Con su RFC real; con su e.firma traes sus CFDI.</p></li>
+        <li class="cal-reveal"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" aria-hidden="true" viewBox="0 0 160 120"><rect width="158" height="118" x="1" y="1" fill="#f5f5f5" rx="14"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" color="#000"><g stroke-width="1.4" transform="translate(42 38)scale(1.75)"><rect width="16" height="18" x="4" y="3" rx="2"/><path d="M4 8.5h16M10 8.5V21M13 12.5h4M13 16.5h4"/></g><path stroke-width="1.5" d="M4 20.5h16M4 3.5v17M8 17v-4M12 17V8M16 17v-6" transform="matrix(1.6 0 0 1.6 90 42)"/></g><circle cx="26" cy="26" r="16" fill="#e7a745"/><text x="26" y="32" font-family="Montserrat,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">3</text></svg><h3>Revisa sus pólizas y estados financieros.</h3><p>Las ves, las revisas y las corriges.</p></li>
+      </ol>
+      <!-- Botón intermedio (04-ux §2.2): mismo destino y texto que el hero. -->
+      <div class="cal-intermedio">
+        <p><a class="cal-btn" href="https://www.calcimp.com/calc/registro">Prueba 30 días con un contribuyente real</a></p>
+        <p class="cal-nota">30 días, todas las funciones, sin tarjeta.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · Hoy vs con CalcImp -->
+  <section class="cal-sec cal-alt" aria-labelledby="cal-mano">
+    <div class="cal-in">
+      <h2 id="cal-mano">Lo que haces a mano hoy, lo hace CalcImp</h2>
+      <ul class="cal-ad">
+        <li class="cal-antes-despues cal-reveal"><div class="cal-ad-hoy"><p class="cal-rot">Hoy</p><p>Bajas los XML del SAT de cada cliente</p></div><div class="cal-ad-mid" aria-hidden="true"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-cfdi"/></svg><svg aria-hidden="true" class="cal-ico cal-flecha"><use href="#cal-i-flecha"/></svg></div><div class="cal-ad-cal"><p class="cal-rot">Con CalcImp</p><p>Descarga y carga masiva de CFDI con la e.firma del contribuyente</p></div></li>
+        <li class="cal-antes-despues cal-reveal"><div class="cal-ad-hoy"><p class="cal-rot">Hoy</p><p>Capturas una póliza por cada factura</p></div><div class="cal-ad-mid" aria-hidden="true"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-polizas"/></svg><svg aria-hidden="true" class="cal-ico cal-flecha"><use href="#cal-i-flecha"/></svg></div><div class="cal-ad-cal"><p class="cal-rot">Con CalcImp</p><p>Pólizas automáticas a partir de los CFDI; tú las revisas y las ajustas</p></div></li>
+        <li class="cal-antes-despues cal-reveal"><div class="cal-ad-hoy"><p class="cal-rot">Hoy</p><p>Concilias el banco en una hoja de cálculo</p></div><div class="cal-ad-mid" aria-hidden="true"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-banco"/></svg><svg aria-hidden="true" class="cal-ico cal-flecha"><use href="#cal-i-flecha"/></svg></div><div class="cal-ad-cal"><p class="cal-rot">Con CalcImp</p><p>Conciliación bancaria incluida</p></div></li>
+        <li class="cal-antes-despues cal-reveal"><div class="cal-ad-hoy"><p class="cal-rot">Hoy</p><p>Armas los estados financieros por fuera</p></div><div class="cal-ad-mid" aria-hidden="true"><svg aria-hidden="true" class="cal-ico"><use href="#cal-i-estados"/></svg><svg aria-hidden="true" class="cal-ico cal-flecha"><use href="#cal-i-flecha"/></svg></div><div class="cal-ad-cal"><p class="cal-rot">Con CalcImp</p><p>Estados financieros desde la misma contabilidad</p></div></li>
+      </ul>
+      <p class="cal-lead"><strong>La automatización te quita la captura, no el control:</strong> cada póliza está a la vista y la puedes corregir.</p>
+      <!-- CAPTURAS REALES (v3, CAL-60): recortes limpios de la cuenta demo (sin correo, sin «DEMO», nombres desenfocados, RFC enmascarados). En GHL o WordPress, sube los archivos de img/ a Medios y cambia el prefijo «img/» por su URL. -->
+      <div class="cal-capturas">
+        <h3>Así se ve por dentro</h3>
+        <figure class="cal-cap cal-reveal">
+          <div class="cal-cap-marco"><div class="cal-nav" aria-hidden="true"><span></span><span></span><span></span></div><a href="img/09-asi-te-ve-el-sat-1408.webp" target="_blank" rel="noopener"><picture><source type="image/avif" srcset="img/09-asi-te-ve-el-sat-720.avif 720w, img/09-asi-te-ve-el-sat-1408.avif 1408w" sizes="(min-width:1080px) 1040px, calc(100vw - 40px)"><img src="img/09-asi-te-ve-el-sat-1408.webp" srcset="img/09-asi-te-ve-el-sat-720.webp 720w, img/09-asi-te-ve-el-sat-1408.webp 1408w" sizes="(min-width:1080px) 1040px, calc(100vw - 40px)" width="1408" height="570" loading="lazy" decoding="async" alt="Pantalla «Así te ve el SAT» de CalcImp: totales del mes de ingresos y gastos PUE, aviso de vista estimada y lista de CFDI emitidos marcados como considerados o no considerados"></picture></a></div>
+          <figcaption><strong>Así te ve el SAT.</strong> Antes de declarar, ves qué CFDI del mes entrarían al prellenado y cuáles no. Es una vista estimada: la determinación fiscal sigue siendo tuya. <span class="cal-pie">Pantalla real de CalcImp con datos de práctica.<span class="cal-zoom"> Tócala para verla en grande.</span></span></figcaption>
+        </figure>
+        <figure class="cal-cap cal-reveal">
+          <div class="cal-cap-marco"><div class="cal-nav" aria-hidden="true"><span></span><span></span><span></span></div><a href="img/10-checklist-1404.webp" target="_blank" rel="noopener"><picture><source type="image/avif" srcset="img/10-checklist-720.avif 720w, img/10-checklist-1404.avif 1404w" sizes="(min-width:1080px) 1040px, calc(100vw - 40px)"><img src="img/10-checklist-1404.webp" srcset="img/10-checklist-720.webp 720w, img/10-checklist-1404.webp 1404w" sizes="(min-width:1080px) 1040px, calc(100vw - 40px)" width="1404" height="560" loading="lazy" decoding="async" alt="Pantalla «Checklist antes de declarar» de CalcImp: lista de puntos del mes con estado Hecho o Revisar y la solución de cada uno"></picture></a></div>
+          <figcaption><strong>Checklist antes de declarar.</strong> Lo que falta resolver del mes, punto por punto: qué ya está hecho y qué tienes que revisar. <span class="cal-pie">Pantalla real de CalcImp con datos de práctica.<span class="cal-zoom"> Tócala para verla en grande.</span></span></figcaption>
+        </figure>
+        <figure class="cal-cap cal-reveal">
+          <div class="cal-cap-marco"><div class="cal-nav" aria-hidden="true"><span></span><span></span><span></span></div><a href="img/06-resumen-anual-1400.webp" target="_blank" rel="noopener"><picture><source type="image/avif" srcset="img/06-resumen-anual-720.avif 720w, img/06-resumen-anual-1400.avif 1400w" sizes="(min-width:1080px) 1040px, calc(100vw - 40px)"><img src="img/06-resumen-anual-1400.webp" srcset="img/06-resumen-anual-720.webp 720w, img/06-resumen-anual-1400.webp 1400w" sizes="(min-width:1080px) 1040px, calc(100vw - 40px)" width="1400" height="297" loading="lazy" decoding="async" alt="Pantalla «Resumen del año» de CalcImp: ingresos cobrados, gastos deducibles, IVA e ISR pagados de enero a octubre"></picture></a></div>
+          <figcaption><strong>Resumen del año.</strong> Ingresos cobrados, gastos deducibles, IVA e ISR de cada mes del contribuyente, en una sola tabla. <span class="cal-pie">Pantalla real de CalcImp con datos de práctica.<span class="cal-zoom"> Tócala para verla en grande.</span></span></figcaption>
+        </figure>
+        <figure class="cal-cap cal-reveal" style="width:802px">
+          <div class="cal-cap-marco"><div class="cal-nav" aria-hidden="true"><span></span><span></span><span></span></div><a href="img/04-detalle-calculo-800.webp" target="_blank" rel="noopener"><picture><source type="image/avif" srcset="img/04-detalle-calculo-800.avif"><img src="img/04-detalle-calculo-800.webp" width="800" height="658" loading="lazy" decoding="async" alt="Pantalla de detalle del cálculo de CalcImp: tablas «IVA a pagar» e «ISR a pagar» del mes renglón por renglón"></picture></a></div>
+          <figcaption><strong>Detalle del cálculo.</strong> El IVA y el ISR del mes renglón por renglón, para que veas de dónde sale cada cifra. <span class="cal-pie">Pantalla real de CalcImp con datos de práctica.<span class="cal-zoom"> Tócala para verla en grande.</span></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · Comparativa -->
+  <section class="cal-sec" aria-labelledby="cal-compara">
+    <div class="cal-in">
+      <h2 id="cal-compara">Compara antes de decidir</h2>
+      <p>Funcionalidad y forma de cobro, incluido lo que CalcImp no tiene.</p>
+      <div class="cal-tabla-wrap">
+        <table class="cal-apila">
+          <caption>CalcImp, Contalink y CONTPAQi / Aspel COI</caption>
+          <thead>
+            <tr><th scope="col"><span class="cal-sr">Concepto</span></th><th scope="col" class="cal-col-cal">CalcImp</th><th scope="col">Contalink</th><th scope="col">CONTPAQi / Aspel COI</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Cómo cobra</th><td class="cal-col-cal" data-label="CalcImp">Por contribuyente. Usuarios sin costo extra</td><td data-label="Contalink">Por contador, en paquetes de RFC</td><td data-label="CONTPAQi / Aspel COI">Licencia anual (CONTPAQi) o suscripción (Aspel COI); CONTPAQi cobra cada usuario adicional</td></tr>
+            <tr><th scope="row">Prueba gratis</th><td class="cal-col-cal" data-label="CalcImp">30 días, todas las funciones, sin tarjeta</td><td data-label="Contalink">Su sitio no anuncia prueba gratis</td><td data-label="CONTPAQi / Aspel COI">CONTPAQi: 30 días en escritorio, 20 en la nube con 1 RFC. Aspel COI: 30 días</td></tr>
+            <tr><th scope="row">Nómina</th><td class="cal-col-cal" data-label="CalcImp"><strong>No. CalcImp timbra la nómina, no la calcula</strong></td><td data-label="Contalink">Sí, incluida</td><td data-label="CONTPAQi / Aspel COI">En otro sistema: CONTPAQi Nóminas o Aspel NOI</td></tr>
+            <tr><th scope="row">Actualizaciones</th><td class="cal-col-cal" data-label="CalcImp">Incluidas</td><td data-label="Contalink">Incluidas</td><td data-label="CONTPAQi / Aspel COI">CONTPAQi: actualizaciones SAT en la licencia anual. Aspel COI: incluidas en la suscripción</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cal-nota">Información pública de cada marca, revisada el 15 de octubre de 2026. Si algo cambió, avísanos y lo corregimos.</p>
+    </div>
+  </section>
+
+  <!-- 7 · Capacitación (ilustración a la izquierda) -->
+  <section class="cal-sec cal-alt" aria-labelledby="cal-capacita">
+    <div class="cal-in cal-lado">
+      <div class="cal-ilus"><svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" aria-hidden="true" viewBox="0 0 240 180"><path fill="#e7a745" stroke="currentColor" stroke-linejoin="round" stroke-width="2.5" d="M60 52L120 24l60 28-60 28z"/><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2.5" d="M84 64v22c0 8 16 14 36 14s36-6 36-14V64"/><path stroke="currentColor" stroke-linecap="round" stroke-width="2.5" d="M180 52v26"/><circle cx="60" cy="128" r="12" fill="none" stroke="currentColor" stroke-width="2.5"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5" d="M38 172c0-14 10-24 22-24s22 10 22 24"/><circle cx="120" cy="128" r="12" fill="none" stroke="currentColor" stroke-width="2.5"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5" d="M98 172c0-14 10-24 22-24s22 10 22 24"/><circle cx="180" cy="128" r="12" fill="none" stroke="currentColor" stroke-width="2.5"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5" d="M158 172c0-14 10-24 22-24s22 10 22 24"/></svg></div>
+      <div>
+        <h2 id="cal-capacita">Capacitación incluida para tu equipo</h2>
+        <p class="cal-lead">Si contratas 10 créditos o más, la capacitación para tu equipo va incluida. (Un crédito equivale a un contribuyente persona física al año.)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 · RFC (escudo a la izquierda) -->
+  <section class="cal-sec cal-dark" aria-labelledby="cal-rfc">
+    <div class="cal-in cal-lado">
+      <div class="cal-ilus cal-escudo"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="180" aria-hidden="true" viewBox="0 0 160 180"><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="3" d="M80 10l62 24v46c0 38-26 66-62 88-36-22-62-50-62-88V34z"/><rect width="50" height="40" x="55" y="80" fill="#e7a745" rx="6"/><path fill="none" stroke="#e7a745" stroke-linecap="round" stroke-width="5" d="M64 80V66a16 16 0 0 1 32 0v14"/><circle cx="80" cy="97" r="5"/><path stroke="#000" stroke-linecap="round" stroke-width="4" d="M80 100v8"/></svg></div>
+      <div>
+        <h2 id="cal-rfc">Qué hacemos con tu RFC</h2>
+        <p class="cal-lead">Para probar CalcImp con un contribuyente real te pedimos su RFC. Esto pasa con él:</p>
+        <ul class="cal-grid cal-2">
+          <li class="cal-tarjeta cal-reveal"><p><strong>Lo usamos para una sola cosa:</strong> armar la contabilidad de ese contribuyente dentro de tu cuenta. <span class="cal-mark">[confirmar con Eric: usos exactos y si se consulta algo al SAT]</span></p></li>
+          <li class="cal-tarjeta cal-reveal"><p><strong>No le vendemos nada a tu cliente</strong> ni compartimos su RFC con terceros. <span class="cal-mark">[confirmar con Eric contra el aviso de privacidad]</span></p></li>
+          <li class="cal-tarjeta cal-reveal"><p><strong>CalcImp es un software contable, no asesoría fiscal.</strong> Las decisiones fiscales las tomas tú.</p></li>
+          <li class="cal-tarjeta cal-reveal"><p><strong>Lo puedes borrar cuando quieras, sin candados.</strong> <span class="cal-mark">[confirmar con Eric: desde dónde se borra y qué se elimina]</span></p></li>
+        </ul>
+        <p>Aviso de privacidad <span class="cal-mark">[URL vigente, confirmar]</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · Preguntas frecuentes -->
+  <section class="cal-sec" aria-labelledby="cal-faq">
+    <div class="cal-in cal-faq">
+      <h2 id="cal-faq">Preguntas frecuentes</h2>
+      <details><summary>¿Qué hace CalcImp con la nómina?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>La timbra, no la calcula. El cálculo lo haces fuera de CalcImp.</p></details>
+      <details><summary>¿Los timbres vienen incluidos?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>No. Se compran aparte, sueltos desde uno o en paquete. Pagas lo que consumes.</p></details>
+      <details><summary>¿Cuántas personas de mi equipo pueden entrar?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>Todas. Cada una con los permisos que tú le des, sin licencia por usuario.</p></details>
+      <details><summary>Con otro sistema me dan muchos RFC por un precio. ¿Por qué CalcImp?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>Haz la cuenta completa con tu equipo: en CalcImp no pagas por usuario ni por módulo. La forma más clara de compararlo es probarlo 30 días con un contribuyente que conozcas bien.</p></details>
+      <details><summary>¿Y mis pólizas?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>Las ves, las revisas y las corriges. CalcImp te ahorra la captura; el criterio sigue siendo tuyo.</p></details>
+      <details><summary>¿Necesito tarjeta para la prueba?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>No. Son 30 días con todas las funciones y sin tarjeta.</p></details>
+      <details><summary>¿Sirve para empresas con inventarios o producción?<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p>No. CalcImp es para contabilidad y cumplimiento fiscal de tus contribuyentes; no maneja inventarios ni producción.</p></details>
+      <details><summary>Vengo de CONTPAQi o COI.<svg aria-hidden="true" class="cal-ico cal-i-mas"><use href="#cal-i-mas"/></svg><svg aria-hidden="true" class="cal-ico cal-i-menos"><use href="#cal-i-menos"/></svg></summary><p><a href="/cambiar-de-sistema/">Mira cómo es cambiar de CONTPAQi o COI a CalcImp</a>.</p></details>
+    </div>
+  </section>
+
+  <!-- 10 · Cierre -->
+  <section class="cal-sec cal-dark" aria-labelledby="cal-cierre">
+    <div class="cal-in cal-cierre">
+      <div class="cal-ilus"><svg xmlns="http://www.w3.org/2000/svg" width="340" height="64" aria-hidden="true" viewBox="0 0 340 64"><circle cx="32" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9.5 12 4l9 5.5M4 10h16M6 10v7.5M10 10v7.5M14 10v7.5M18 10v7.5M3 20.5h18" transform="translate(20 20)"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M62 32L88 32M79.2 27.2L88 32L79.2 36.8"/><circle cx="116" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="2"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" transform="translate(104 20)"/><path d="M14 3v5h5M12 11v6M9.5 14.5 12 17l2.5-2.5" transform="translate(104 20)"/></g><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M146 32L172 32M163.2 27.2L172 32L163.2 36.8"/><circle cx="200" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="2"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="translate(188 20)"><rect width="16" height="18" x="4" y="3" rx="2"/><path d="M4 8.5h16M10 8.5V21M13 12.5h4M13 16.5h4"/></g><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M230 32L256 32M247.2 27.2L256 32L247.2 36.8"/><circle cx="284" cy="32" r="24" fill="#e7a745" stroke="#e7a745" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 20.5h16M4 3.5v17M8 17v-4M12 17V8M16 17v-6" color="#000" transform="translate(272 20)"/></svg></div>
+      <h2 id="cal-cierre">Pruébalo con un contribuyente que conozcas bien.</h2>
+      <p class="cal-lead">30 días, todas las funciones, sin tarjeta. Si los números te cuadran, sigues; si no, borras el RFC y listo.</p>
+      <p><a class="cal-btn" href="https://www.calcimp.com/calc/registro">Empieza tu prueba de 30 días</a></p>
+    </div>
+  </section>
+
+  <!-- CTA fijo en móvil (E2, solo CSS; 04-ux §2.3). Aparece cuando el hero sale de pantalla. -->
+  <a class="cal-btn cal-fijo" href="https://www.calcimp.com/calc/registro">Empieza tu prueba de 30 días</a>
+
+  <!-- Propagación de origen al registro (diagnóstico de medición §5.1). No es píxel ni GTM. -->
+  <script>
+  (function () {
+    var K = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid','fbclid'];
+    var q = new URLSearchParams(location.search), src = {}, hay = false;
+    K.forEach(function (k) { var v = q.get(k); if (v) { src[k] = v.slice(0, 200); hay = true; } });
+    if (hay) {
+      src.landing = location.pathname; src.ts = new Date().toISOString();
+      document.cookie = 'cal_src=' + encodeURIComponent(JSON.stringify(src)) +
+        '; domain=.calcimp.com; path=/; max-age=7776000; SameSite=Lax; Secure';
+    } else {
+      var m = document.cookie.match(/(?:^|; )cal_src=([^;]*)/);
+      try { src = m ? JSON.parse(decodeURIComponent(m[1])) : {}; } catch (e) { src = {}; }
+    }
+    document.querySelectorAll('a[href*="/calc/registro"]').forEach(function (a) {
+      var u = new URL(a.href, location.origin);
+      K.forEach(function (k) { if (src[k] && !u.searchParams.has(k)) u.searchParams.set(k, src[k]); });
+      a.href = u.toString();
+    });
+  })();
+  </script>
+</main>
+<!-- ===== FIN DEL BLOQUE ===== -->
+</body>
+</html>
