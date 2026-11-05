@@ -11,7 +11,16 @@ main{max-width:1180px;margin:0 auto;padding:24px}
 @media(max-width:820px){.card{grid-template-columns:1fr}}
 .imgs{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;align-items:flex-start}
 .imgs img{max-height:520px;width:auto;max-width:100%;border:1px solid #eee;border-radius:6px;flex:0 0 auto}
-.imgs.car img{max-height:340px}
+.car{position:relative;max-width:520px}
+.car .vp{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border:1px solid #eee;border-radius:6px;scrollbar-width:none}
+.car .vp::-webkit-scrollbar{display:none}
+.car .sl{flex:0 0 100%;scroll-snap-align:start;display:flex;justify-content:center;background:#fafafa}
+.car .sl img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain}
+.car button.ar{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.72);color:#fff;font-size:22px;line-height:44px;cursor:pointer;z-index:2}
+.car button.ar:disabled{opacity:.25;cursor:default}.car button.prev{left:8px}.car button.next{right:8px}
+.car .bar{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:10px;font-size:14px}
+.car .dots{display:flex;gap:6px}.car .dots button{width:10px;height:10px;border-radius:50%;border:1px solid #000;background:#fff;padding:0;cursor:pointer}
+.car .dots button.on{background:#E7A745;border-color:#E7A745}
 .id{font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:22px}
 .tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;background:#000;color:#fff;margin:0 6px 6px 0}
 .tag.g{background:#E7A745;color:#000}
